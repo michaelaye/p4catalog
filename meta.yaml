@@ -1,0 +1,19 @@
+# meta.yaml
+package:
+  version: '1.1.4'
+  name: 'planetfour-data'
+
+build:
+  number: 0
+  noarch: generic
+
+requirements:
+  run:
+    - intake
+  build: []
+
+about:
+  description: The Planet Four catalog (https://www.planetfour.org/results)
+  license: OGL v3
+  license_family: OTHER
+  summary: Planet Four Catalog

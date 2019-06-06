@@ -1,0 +1,7 @@
+sources:
+  p4data:
+    args:
+      path: "{{ CATALOG_DIR }}/p4data/p4data_sub.yaml"
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
