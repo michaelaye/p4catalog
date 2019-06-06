@@ -1,0 +1,41 @@
+sources:
+  fans:
+    description: Fan data of the Planet Four catalog
+    driver: csv
+    args:
+      urlpath: 'https://www.dropbox.com/s/o70a1x8xzrxfyvg/P4_catalog_v1.1_L1C_cut_0.5_fan.csv.gz?dl=1'
+      csv_kwargs:
+        blocksize: null
+        compression: gzip
+    metadata:
+      origin_url: 'https://www.planetfour.org/results'
+  blotches:
+    description: Blotch data of the Planet Four catalog
+    driver: csv
+    args:
+      urlpath: 'https://www.dropbox.com/s/hx0qr1ut5lk2fva/P4_catalog_v1.1_L1C_cut_0.5_blotch.csv.gz?dl=1'
+      csv_kwargs:
+        blocksize: null
+        compression: gzip
+    metadata:
+      origin_url: 'https://www.planetfour.org/results'
+  tile_coordinates:
+    description: Tile coordinates of the Planet Four catalog
+    driver: csv
+    args:
+      urlpath: 'https://www.dropbox.com/s/rupw3rz0pw4bzm8/P4_catalog_v1.1_tile_coords_final.csv.gz?dl=1'
+      csv_kwargs:
+        blocksize: null
+        compression: gzip
+    metadata:
+      origin_url: 'https://www.planetfour.org/results'
+  metadata:
+    description: Meta-data of the HiRISE observations for the Planet Four catalog
+    driver: csv
+    args:
+      urlpath: 'https://www.dropbox.com/s/k0bfd11mnwqf9h8/P4_catalog_v1.1_metadata.csv.gz?dl=1'
+      csv_kwargs:
+        blocksize: null
+        compression: gzip
+    metadata:
+      origin_url: 'https://www.planetfour.org/results'

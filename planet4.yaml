@@ -1,0 +1,7 @@
+sources:
+  planet4:
+    args:
+      path: "{{ CATALOG_DIR }}/planet4/planet4_files.yaml"
+    description: ''
+    driver: intake.catalog.local.YAMLFileCatalog
+    metadata: {}
