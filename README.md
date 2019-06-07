@@ -8,7 +8,7 @@ See [Data users section](#data-users) below if you just want to install the cata
 
 It was important for us to put the Planet Four catalog that is described [here](https://planetfour.org/results) under version control.
 The new [Intake](https://intake.readthedocs.io/en/latest/) package for data access and distribution is enabling us to achieve this.
-Not only will it enable users to simply install and update the catalog using `conda` commands, but in future updates it will include example data plots to make the user faster comfortable what is in the catalag. Stay tuned!
+Not only will it enable users to simply install and update the catalog using `conda` commands, but, provided in future updates, example data plots created from the installed catalog simply by executing `plot()` will make the user faster comfortable with what is offered by the catalag. Stay tuned! (Click "Watch" above to be notified about any changes.)
 
 This repository contains everything to built the catalog, so it mostly serves as an example to other data producers how to share their data using `conda`.
 
