@@ -37,6 +37,7 @@ fans.shape
 # get a description of the catalog
 intake.cat.planet4.fans.describe()
 ```
+```bash
 {'name': 'fans',
  'container': 'dataframe',
  'plugin': ['csv'],
@@ -46,6 +47,7 @@ intake.cat.planet4.fans.describe()
  'metadata': {'origin_url': 'https://www.planetfour.org/results'},
  'args': {'urlpath': 'https://www.dropbox.com/s/o70a1x8xzrxfyvg/P4_catalog_v1.1_L1C_cut_0.5_fan.csv.gz?dl=1',
   'csv_kwargs': {'blocksize': None, 'compression': 'gzip'}}}
+```
 
 ## Data producers
 
