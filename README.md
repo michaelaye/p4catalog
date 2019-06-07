@@ -26,13 +26,17 @@ import intake
 # list what catalogs intake has available:
 print(list(intake.cat)
 ```
+```
 ['planet4']
+```
 ```python
 # get the data as pandas.DataFrame:
 fans = intake.cat.p4cat.fans.read()
 fans.shape
 ```
+```
 (158476, 24)
+```
 ```
 # get a description of the catalog
 intake.cat.planet4.fans.describe()
