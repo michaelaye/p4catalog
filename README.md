@@ -66,3 +66,7 @@ Currently I am simply serving the files via Dropbox links. To be improved.
 Things I stumpled upon while producing this:
 
 * Intake is using Dask for reading the remote CSV files and producing the pandas.DataFrames; however, Dask is **not** supporting `zip` as a compression format, so use `gzip` to be fully compatible. In this case, use the `blocksize: null` entry in the `yaml` file to indicate to Dask that you don't make sure of automatic data split-and-scatter.
+* Think about how you want the user to access the data. For example, maybe don't repeat the word `cat` (for catalog) as `intake` already has `cat` in its data access path, so it's superfluous.
+* If you want to distribute more than one file, but want to provide them under one identifying namespace (e.g. here: `planet4`), you need to **both** nest the catalog files **and** reflect that structure in the shell script that copies the catalog files around inside the `$CONDA_PREFIX/share/intake` folder. Just follow this example and you should see how it works.
+
+Let me (and the Intake project) know any troubles you face.
