@@ -1,5 +1,11 @@
 # Planet Four Catalog
 
+This is a repository with the files used to create a versioned and conda-installable catalog of the results from [Aye et al, 2019](https://arxiv.org/abs/1803.10341).
+
+See [Data users section](#data-users) below if you just want to install the catalog and use it.
+
+## Description
+
 It was important for us to put the Planet Four catalog that is described [here](https://planetfour.org/results) under version control.
 The new [Intake](https://intake.readthedocs.io/en/latest/) package for data access and distribution is enabling us to achieve this.
 Not only will it enable users to simply install and update the catalog using `conda` commands, but in future updates it will include example data plots to make the user faster comfortable what is in the catalag. Stay tuned!
