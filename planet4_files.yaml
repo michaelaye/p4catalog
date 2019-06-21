@@ -39,3 +39,23 @@ sources:
         compression: gzip
     metadata:
       origin_url: 'https://www.planetfour.org/results'
+  region_names:
+    description: Mapping file for our inofficial regions of interest names for the Planet Four catalog
+    driver: csv
+    args:
+      urlpath: 'https://www.dropbox.com/s/y772i6f69jzarzq/obsid_region_names.csv.gz?dl=1'
+      csv_kwargs:
+        blocksize: null
+        compression: gzip
+    metadata:
+      origin_url: 'https://www.planetfour.org/results'
+  tile_urls:
+    description: The tile_urls for each tile_id for downloading the background tile image
+    driver: csv
+    args:
+      urlpath: 'https://www.dropbox.com/s/bsobg3tpp98vybt/tile_urls.csv.gz?dl=1'
+      csv_kwargs:
+        blocksize: null
+        compression: gzip
+    metadata:
+      origin_url: 'https://www.planetfour.org/results'
