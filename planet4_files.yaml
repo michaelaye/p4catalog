@@ -23,7 +23,7 @@ sources:
     description: Tile coordinates of the Planet Four catalog
     driver: csv
     args:
-      urlpath: 'https://www.dropbox.com/s/rupw3rz0pw4bzm8/P4_catalog_v1.1_tile_coords_final.csv.gz?dl=1'
+      urlpath: 'https://www.dropbox.com/s/tuadbsve4000r4f/P4_catalog_v1.2_tile_coords_final.csv.gz?dl=1'
       csv_kwargs:
         blocksize: null
         compression: gzip
